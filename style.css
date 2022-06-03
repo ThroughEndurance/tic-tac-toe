@@ -9,6 +9,7 @@
       grid-column-gap: 15px;
       grid-row-gap: 15px;
       cursor: pointer;
+      background-color: darksalmon;
   }
   
 
@@ -17,7 +18,6 @@
 
   #div0 {
       grid-area: 1 / 1 / 2 / 2;
-      border: 20px;
   }
   #div1 {
       grid-area: 1 / 2 / 2 / 3;
@@ -52,5 +52,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 10px solid green;
+    border: 10px solid black;
+    background-color: aquamarine;
+    font-size: 30;
   }
+
+/* Below is just some flavor I'm adding to the page */
+
+body{
+    background-color: black;
+    justify-content: center;
+}
+h2{
+    color: aquamarine;
+}
